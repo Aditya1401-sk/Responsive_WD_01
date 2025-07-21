@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #ffcc00;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+@media screen and (min-width: 300px) {
+    body {
+        background-color: black;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: red;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 900px) {
+    body {
+        background-color: blue;
+        padding: 30px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    
+}
+image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
